@@ -1,2 +1,2 @@
 # website
-CSC Club Website
+Club Website

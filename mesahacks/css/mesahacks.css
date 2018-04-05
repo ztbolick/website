@@ -1,0 +1,264 @@
+body{
+  background-color: #FFD166;
+  color: #26547C;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  font-size: 2.5vw;
+  margin: 0 0 15px;
+}
+
+h2{
+  font-weight: lighter;
+}
+
+h6 {
+  margin: 5px 0;
+}
+
+p{
+  color: #404040;
+  font-size: 18px;
+  margin: 0;
+}
+
+img{
+  float: left;
+  height: auto;
+  max-width: 45%;
+}
+
+i{
+  color: white;
+  font-size: 40px;
+  margin: 30px 20px 10px 0;
+}
+
+#register_btn{
+  font-size: 2vw;
+  color: #25ddc2;
+  cursor: pointer;
+}
+
+#register_btn:hover{
+  color: #3de5ff;
+}
+
+#register_info{
+  font-size: 1.5vw;
+  margin: 10px 0;
+}
+
+.countdown{
+  background-color: #FFFCF9;
+  height: 90vh;
+  max-width: 100vw;
+  padding: 150px 0 0;
+ }
+
+ .welcome{
+   height: 100px;
+   margin: auto 7%;
+ }
+
+.details{
+  float: right;
+  padding: 6% 1% 0 0;
+}
+
+.details p{
+  font-size: 1.5vw;
+  font-weight: normal;
+}
+
+.details #demo{
+  color: #9e9e9e;
+  font-size: 2vw;
+  font-weight: lighter;
+}
+
+.clock{
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.FAQ{
+  background-color: #f2f0ed;
+  clear: both;
+  font-size: 3vw;
+  height: 100%;
+  padding: 40px 300px 10px;
+}
+
+.footer{
+  background-color: #FFD166;
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+}
+
+.socialmedia{
+  float: left;
+}
+
+.mesacsclogo img{
+  float: right;
+  max-width: 25%;
+}
+
+.question{
+  padding: 10px 10px 20px;
+  vertical-align: middle;
+  width: 55%;
+}
+
+.left{
+  clear: right;
+  float: left;
+  margin: 30px;
+}
+
+.right{
+  clear: left;
+  float: right;
+  margin: 30px;
+}
+
+.border{
+  border: 2px solid #25ddc2;
+  border-radius: 10px;
+}
+
+.sponsors{
+  background-color: #f2f0ed;
+  clear: both;
+  font-weight: bold;
+  padding: 80px 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link{
+  color: #25ddc2;
+}
+
+p a:link{
+  color: #EF476F;
+}
+
+p a:hover{
+  color: #3de5ff;
+}
+
+a:visited{
+  color: #25ddc2;
+}
+
+a:hover{
+  color: #3de5ff;
+}
+
+@media screen and (max-width: 800px) {
+  body{
+    width: 100%;
+  }
+
+  h6{
+    font-size: 4vw;
+  }
+
+  .FAQ{
+    padding: 30px 0;
+    text-align: center;
+   }
+
+   .question{
+     width: 80vw;
+   }
+
+  .question{
+    display: inline-block;
+    float: none;
+    margin: 15px;
+  }
+
+  .logo{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .logo img{
+    float: none;
+    max-width: 100%;
+  }
+
+  .details{
+    float: none;
+    margin: 40px 0;
+    padding: 0;
+  }
+
+  .details p, h1{
+    font-size: 6vw;
+  }
+
+  #register_btn{
+    font-size: 5vw;
+  }
+
+  #register_info{
+    font-size: 5vw;
+  }
+
+  .details #demo{
+    font-size: 5.5vw;
+  }
+
+  .countdown{
+    height: 80vh;
+    padding: 20vh 0 0;
+  }
+
+  .sponsors p{
+    font-size: 5vw;
+  }
+
+  .footer{
+    padding: 50px 0;
+    width: 100vw;
+ }
+
+  .mesacsclogo{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .mesacsclogo img{
+    float: none;
+    height: auto;
+    max-width: 60vw;
+  }
+
+  .socialmedia{
+    float: none;
+    margin-bottom: 40px;
+  }
+
+  i{
+    font-size: 15vw;
+    margin: 0 30px 30px;
+  }
+
+  input[type="submit"]{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+}

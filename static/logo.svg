@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 349.25 168.73">
+  <title>logo</title>
+  <g id="BG">
+    <text transform="translate(101.61 14.21)" style="font-size: 16px;stroke: #000;stroke-miterlimit: 10;font-family: HelveticaNeue-Light, Helvetica Neue;letter-spacing: 0.375em">S D M E S A</text>
+  </g>
+  <g id="Text">
+    <line x1="117.58" y1="108.19" x2="231.67" y2="108.19" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 7px"/>
+    <path d="M177.41,270.56A57,57,0,1,0,263,320v0a57,57,0,0,1,57-57h14.27" transform="translate(-145.39 -211.79)" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 7px"/>
+    <path d="M405.65,270.56A57,57,0,0,0,377.06,320v0A57,57,0,0,1,320,377H305.75" transform="translate(-145.39 -211.79)" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 7px"/>
+    <path d="M377.06,320a57,57,0,1,0,114.08,0" transform="translate(-145.39 -211.79)" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 7px"/>
+  </g>
+</svg>

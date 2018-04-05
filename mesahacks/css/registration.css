@@ -1,0 +1,69 @@
+.registration{
+  background-color: #25ddc2; /* Black*/
+  color: #FFFCF9;
+  font-size: 25px;
+  height: 100vh; /* 100% Full-height */
+  right: 0;
+  margin: auto;
+  overflow-x: hidden;/* Disable horizontal scroll */
+  padding-top: 20px; /* Place content 60px from the top */
+  position: absolute;
+  top: 0; /* Stay at the top */
+  transition: 0.6s; /* 0.5 second transition effect to slide in the sidenav */
+  width: 0;
+  z-index: 1; /* Stay on top */
+}
+
+.registration .contents{
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.registration .overlay_btn{
+  color: #FFFCF9;
+  clear: both;
+  font-size: 40px;
+  float: right;
+  margin: 10px 40px 0 0;
+}
+
+.registration h2{
+  margin: 0;
+}
+
+form{
+  margin: 60px 0 0;
+}
+
+input{
+  background-color: #25ddc2;
+  border: none;
+  border-bottom: 2px solid #FFFCF9;
+  color: #FFFCF9;
+  font-size: 25px;
+  margin: 10px 0 30px;
+  outline: none;
+  text-align: center;
+}
+
+input[type="text"]{
+  width: 40%;
+}
+
+input[type="email"]{
+  width: 60%;
+}
+
+input[type="tel"]{
+  width: 30%;
+}
+
+input[type="submit"]{
+  border: none;
+  border-radius: 10px;
+  background-color: #26547C;
+  color: #FFFCF9;
+  cursor: pointer;
+  padding: 10px 40px;
+  margin: 30px;
+}

@@ -21,11 +21,11 @@ $(document).ready(function(){
   $(window).on("load", function(){
     setTimeout(function(){
       $('body').addClass("loaded");
-    }, 700);
+    }, 500);
   });
   if (document.readyState == 'complete') {
     setTimeout(function(){
       $('body').addClass("loaded");
-    }, 1550);
+    }, 1000);
   };
 });

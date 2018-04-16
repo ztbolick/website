@@ -15,14 +15,32 @@ body {
   color: white !important;
 }
 
-.scrolled{
-  background-color: white !important;
-  box-shadow: 0 1px 5px grey !important;
-  transition: all 0.2s;
+nav {
+  padding: 0;
+  font-weight: bold;
+  background-color: transparent;
+  position: fixed;
+  transition: all 1s;
 }
 
-.not-scrolled{
-  background-color: transparent;
+nav .logo img {
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+nav.scrolled  {
+  background-color: rgba(255, 255, 255, .9) !important;
+  box-shadow: 2px 1px 8px grey !important;
   transition: all 0.5s;
 }
 

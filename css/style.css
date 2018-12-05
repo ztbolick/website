@@ -15,15 +15,27 @@ body {
   color: white !important;
 }
 
+a {
+  color: inherit;
+}
+
 .scrolled{
+  transition: all .5s !important;
   background-color: white !important;
   box-shadow: 0 1px 5px grey !important;
-  transition: all 0.2s;
+  height: 50px;
 }
 
 .not-scrolled{
-  background-color: transparent;
-  transition: all 0.5s;
+  background-color: white;
+  transition: all .5s;
+}
+
+.cscLogo-scrolled {
+	height: 30px;
+}
+.cscLogo-notScrolled {
+	height: 60px;
 }
 
 svg text{
@@ -41,4 +53,21 @@ svg text{
 .anchor{
   margin-top: -130px !important;
   padding-top: 130px !important;
+}
+#navbar {
+    -khtml-transition: height .5s ease;
+    -moz-transition: height .5s ease;
+    -ms-transition: height .5s ease;
+    -o-transition: height .5s ease;
+    -webkit-transition: height .5s ease;
+    transition: height .5s ease;
+    background-color: white;
+}
+#csclogo {
+    -khtml-transition: height .5s ease;
+    -moz-transition: height .5s ease;
+    -ms-transition: height .5s ease;
+    -o-transition: height .5s ease;
+    -webkit-transition: height .5s ease;
+    transition: height .5s ease;
 }

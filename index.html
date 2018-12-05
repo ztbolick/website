@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/preload.css">
     <!-- JQUERY -->
-    <script type="text/javascript"src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <!-- ANIME.JS -->
     <script src="/js/anime.min.js" rel="preload"></script>
     <!-- MAIN.JS -->
@@ -59,7 +59,7 @@
     <!-- NAVBAR START -->
     <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-light px-5">
       <a class="navbar-brand my-2 pl-5 h3" href="#">
-        <img src="/static/logo.svg" alt="" height="60">
+        <img id="csclogo" src="/static/logo.svg" alt="" height="60">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -82,7 +82,7 @@
             <a class="nav-link text-muted" href="/static/constitution.pdf">Constitution</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-muted" href="mesahacks">MesaHacks</a>
+            <a class="nav-link text-muted" href="http://mesahacks.io">MesaHacks</a>
           </li>
         </ul>
       </div>
@@ -90,8 +90,8 @@
     <!-- NAVBAR END -->
 
     <!-- MAIN IMAGE -->
-    <div class="container w-100 mb-5">
-      <img src="/static/maintemp.jpg" alt="" class="img-fluid">
+    <div id="topdiv" class="container w-100 mb-5">
+      <img src="/static/club_photo.jpg" alt="" class="img-fluid">
     </div>
 
     <!-- ABOUT SECTION -->
@@ -168,69 +168,26 @@
     </div>
 
     <!-- TEAM SECTION -->
-    <div id="team" class="container my-5 anchor">
+    <div class="container my-5 anchor">
       <div class="row justify-content-center text-center">
         <div class="col-xs-4">
           <h2 class="border-bottom">Our Team</h2>
         </div>
       </div>
-      <div class="row justify-content-center text-center mt-4">
-        <div class="col-md-3 my-2">
-          <div class="card shadow">
-            <img src="/static/our-team/Preston_headshot-lowres.jpg" alt="Preston Reed" class="img-fluid card-img-top">
-            <div class="card-body">
-              <h5 class="card-title mt-3">President</h5>
-              <p class="card-text">Preston Reed</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 my-2">
-          <div class="card shadow">
-            <img src="/static/our-team/Devon_headshot-lowres.jpg" alt="Devon Rojas" class="img-fluid card-img-top">
-            <div class="card-body">
-              <h5 class="card-title mt-3">Vice President</h5>
-              <p class="card-text">Devon Rojas</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 my-2">
-          <div class="card shadow">
-            <img src="/static/our-team/Marehan_headshot-lowres.jpg" alt="Marehan Waly" class="img-fluid card-img-top">
-            <div class="card-body">
-              <h5 class="card-title mt-3">Vice President</h5>
-              <p class="card-text">Marehan Waly</p>
-            </div>
-          </div>
+        <div class="row justify-content-center text-left">
+          <div class="col-md-3 my-2">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active magictab" id="2018-tab" data-toggle="tab" role="tab">2018</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link magictab" id="2017-tab" data-toggle="tab" role="tab">2017</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="row justify-content-center text-center mt-3">
-        <div class="col-md-3 my-2">
-          <div class="card shadow">
-            <img src="/static/our-team/Brandon_headshot-lowres.jpg" alt="Brandon Minjares" class="img-fluid card-img-top">
-            <div class="card-body">
-              <h5 class="card-title mt-3">Secretary</h5>
-              <p class="card-text">Brandon Minjares</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 my-2">
-          <div class="card shadow">
-            <img src="/static/our-team/Gabe_headshot-lowres.jpg" alt="Gabriel Bettinelli" class="img-fluid card-img-top">
-            <div class="card-body">
-              <h5 class="card-title mt-3">Treasurer</h5>
-              <p class="card-text">Gabriel Bettinelli</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 my-2">
-          <div class="card shadow">
-            <img src="/static/our-team/Kat_headshot-lowres.jpg" alt="Katherine Solchaga" class="img-fluid card-img-top">
-            <div class="card-body">
-              <h5 class="card-title mt-3">Events Chair</h5>
-              <p class="card-text">Katherine Solchaga</p>
-            </div>
-          </div>
-        </div>
+      <div id="team">
+        
       </div>
     </div>
 
@@ -262,7 +219,6 @@
       </div>
     </div>
   </body>
-
   <footer class="bg-dark">
     <div id="footer" class="container py-5">
       <div class="row justify-content-center text-center py-3 mt-3">
@@ -284,10 +240,10 @@
 
   <script src="/js/preload.js" rel="preload"></script>
   <!-- MOMENT.JS -->
-  <script type="text/javascript" src="/js/moment.js"></script>
+  <script src="/js/moment.js"></script>
   <!-- FULLCALENDAR.JS -->
-  <script type="text/javascript" src="/js/fullcalendar.min.js"></script>
-  <script type='text/javascript' src='/js/gcal.min.js'></script>
+  <script src="/js/fullcalendar.min.js"></script>
+  <script src='/js/gcal.min.js'></script>
   <!-- POPPER.JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <!-- BOOTSTRAP.JS -->

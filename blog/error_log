@@ -1,0 +1,19 @@
+[12-Dec-2018 21:29:27 UTC] PHP Warning:  include(partials/_nav.php): failed to open stream: No such file or directory in /home3/codingx0/public_html/cscmesa/blog/minutes.php on line 34
+[12-Dec-2018 21:29:27 UTC] PHP Warning:  include(partials/_nav.php): failed to open stream: No such file or directory in /home3/codingx0/public_html/cscmesa/blog/minutes.php on line 34
+[12-Dec-2018 21:29:27 UTC] PHP Warning:  include(): Failed opening 'partials/_nav.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/codingx0/public_html/cscmesa/blog/minutes.php on line 34
+[12-Dec-2018 21:30:56 UTC] PHP Warning:  include(partials/_nav.php): failed to open stream: No such file or directory in /home3/codingx0/public_html/cscmesa/blog/minutes.php on line 26
+[12-Dec-2018 21:30:56 UTC] PHP Warning:  include(partials/_nav.php): failed to open stream: No such file or directory in /home3/codingx0/public_html/cscmesa/blog/minutes.php on line 26
+[12-Dec-2018 21:30:56 UTC] PHP Warning:  include(): Failed opening 'partials/_nav.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/codingx0/public_html/cscmesa/blog/minutes.php on line 26
+[12-Dec-2018 21:31:25 UTC] PHP Warning:  include(partials/_nav.php): failed to open stream: No such file or directory in /home3/codingx0/public_html/cscmesa/blog/minutes.php on line 25
+[12-Dec-2018 21:31:25 UTC] PHP Warning:  include(partials/_nav.php): failed to open stream: No such file or directory in /home3/codingx0/public_html/cscmesa/blog/minutes.php on line 25
+[12-Dec-2018 21:31:25 UTC] PHP Warning:  include(): Failed opening 'partials/_nav.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/codingx0/public_html/cscmesa/blog/minutes.php on line 25
+[12-Dec-2018 21:48:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PostPagination() in /home3/codingx0/public_html/cscmesa/blog/minutes.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/codingx0/public_html/cscmesa/blog/minutes.php on line 34
+[13-Dec-2018 20:19:00 UTC] PHP Parse error:  syntax error, unexpected ')' in /home3/codingx0/public_html/cscmesa/admin/includes/functions.php on line 151
+[13-Dec-2018 22:59:19 UTC] PHP Parse error:  syntax error, unexpected ')' in /home3/codingx0/public_html/cscmesa/admin/includes/functions.php on line 151
+[13-Dec-2018 23:53:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /home3/codingx0/public_html/cscmesa/admin/includes/functions.php on line 151
+[15-Dec-2018 03:36:28 UTC] PHP Parse error:  syntax error, unexpected ')' in /home3/codingx0/public_html/cscmesa/admin/includes/functions.php on line 151
+[15-Dec-2018 11:07:41 UTC] PHP Parse error:  syntax error, unexpected ')' in /home3/codingx0/public_html/cscmesa/admin/includes/functions.php on line 151
+[15-Dec-2018 20:23:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /home3/codingx0/public_html/cscmesa/admin/includes/functions.php on line 151

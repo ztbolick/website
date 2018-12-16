@@ -21,9 +21,6 @@ $(document).ready(function() {
         let selectedYear = this.innerHTML;
         ourTeamInit(selectedYear);
     });
-    $('.navbar-toggler').click(() => {
-        !$('#navbar').hasClass('navbar-clicked') ? $('#navbar').addClass('navbar-clicked') : $('#navbar').removeClass('navbar-clicked');
-    });
 
     function ourTeamInit(yearArgs) {
         let imgPath = 'https://cscmesa.com/static/our-team/';

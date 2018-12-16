@@ -1,0 +1,76 @@
+body {
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.active, a:hover{
+  color: black !important;
+}
+
+.btn:hover{
+  color: white !important;
+}
+
+a {
+  color: inherit;
+}
+
+.scrolled{
+  transition: all .5s !important;
+  background-color: white !important;
+  box-shadow: 0 1px 5px grey !important;
+  height: 50px;
+}
+
+.not-scrolled{
+  background-color: white;
+  transition: all .5s;
+}
+
+.cscLogo-scrolled {
+	height: 30px;
+}
+.cscLogo-notScrolled {
+	height: 60px;
+}
+
+svg text{
+  opacity: 0;
+}
+
+.shadow{
+  box-shadow: 0.5px 0.5px 5px #d3d3d3;
+}
+
+.fc h2{
+  font-size: 1.5rem;
+}
+
+.anchor{
+  margin-top: -130px !important;
+  padding-top: 130px !important;
+}
+#navbar {
+    -khtml-transition: height .5s ease;
+    -moz-transition: height .5s ease;
+    -ms-transition: height .5s ease;
+    -o-transition: height .5s ease;
+    -webkit-transition: height .5s ease;
+    transition: height .5s ease;
+    background-color: white;
+}
+#csclogo {
+    -khtml-transition: height .5s ease;
+    -moz-transition: height .5s ease;
+    -ms-transition: height .5s ease;
+    -o-transition: height .5s ease;
+    -webkit-transition: height .5s ease;
+    transition: height .5s ease;
+}
+.navbar-clicked {
+    height: 405px;
+}

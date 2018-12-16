@@ -71,3 +71,9 @@ svg text{
     -webkit-transition: height .5s ease;
     transition: height .5s ease;
 }
+.navbar-collapse { 
+	background: white !important;
+}
+.navbar-clicked {
+    height: 405px;
+}
